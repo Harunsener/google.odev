@@ -7,6 +7,28 @@ body {
     text-align: center;
     padding: 20px;
   }
+  body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  .fullscreen-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+  
+  .fullscreen-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  
   
   .logo {
     display: flex;
@@ -47,7 +69,7 @@ body {
   nav a {
     margin: 0 10px;
     text-decoration: none;
-    color: #333;
+    color: #fff;
     font-size: 16px;
   }
   
@@ -55,6 +77,6 @@ body {
     text-align: center;
     padding: 40px;
     font-size: 14px;
-    color: #777;
+    color: #fff;
   }
   
